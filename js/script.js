@@ -34,15 +34,15 @@ function toggleSymbol() {
 
 function featuredExpand() {
     if (window.location.href == "http://www.mit.edu/~taguchi/publications.html#featured-pub1") {
-        var inputButton1 = document.getElementById("node5");
+        var inputButton1 = document.getElementById("node9");
         inputButton1.click();
         document.getElementById("pubAbstract1").innerHTML = "[-] Abstract"
     } else if (window.location.href == "http://www.mit.edu/~taguchi/publications.html#featured-pub2") {
-        var inputButton2 = document.getElementById("node9");
+        var inputButton2 = document.getElementById("node5");
         inputButton2.click();
         document.getElementById("pubAbstract2").innerHTML = "[-] Abstract"
     } else if (window.location.href == "http://www.mit.edu/~taguchi/publications.html#featured-pub3") {
-        var inputButton3 = document.getElementById("node12");
+        var inputButton3 = document.getElementById("node2");
         inputButton3.click();
         document.getElementById("pubAbstract3").innerHTML = "[-] Abstract"
     }
